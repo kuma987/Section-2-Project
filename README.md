@@ -3,7 +3,7 @@
 ## 개요
 해당 프로젝트는 [코트스테이츠](https://github.com/codestates) AI 부트캠프 Section 2에서 학습한 내용을 활용하기 위해 진행되었습니다.
 
-## 주제 : FIFA Onile 4 랭커 유저들의 선수 사용 기록을 바탕으로 출시 예정 선수들의 OP 여부 예측
+## 주제 : FIFA Onile 4 출시 예정 선수들의 과성능 여부 예측
 * 수행자 : 장건희
 * 기간 : 2023.4.7 ~ 2023.4.12
 * 사용 데이터 : [FIFA Online 4 선수 정보](https://fifaonline4.nexon.com/datacenter), [FIFA Online 4 Open API](https://developers.nexon.com/fifaonline4)
