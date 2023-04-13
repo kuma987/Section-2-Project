@@ -48,5 +48,5 @@
 
 ## 2. 분석 개요
 
-<p align="center"><img src = https://i.imgur.com/0PrS47v.png width="1000" height="400"/> 
+<p align="center"><img src = https://i.imgur.com/0PrS47v.png width="1000" height="300"/> 
 
