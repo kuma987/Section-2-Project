@@ -46,4 +46,7 @@
 
 #### 이에 본 프로젝트에서는 출시 예정 선수의 성능이 지나치게 강력할 지 미리 예측하여 앞선 문제들이 발생하는 것을 예방하고자 한다.
 
+## 2. 분석 개요
+
+<p align="center">![image](https://user-images.githubusercontent.com/62368250/231649805-01f89f9c-281a-403e-a9c7-64ed9d837b7d.png)
 
