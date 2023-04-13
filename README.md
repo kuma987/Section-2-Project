@@ -73,7 +73,13 @@
 - 분류모델 성능 기준
   - 타겟 변수가 불균형한 형태이기 때문에 F1-Score을 모델의 성능을 확인하는 지표로 설정
   - F1-Score를 산출하는 성능지표인 Recall과 Precision 중, Recall을 중요한 지표로 설정
-    - FN`(OP 선수를 OP로 판단하지 못하는 경우)`이 더 치명적인 에러라고 판단하여 이러한 
+    - FN`(OP 선수를 OP로 판단하지 못하는 경우)`이 더 치명적인 에러라고 판단하여 이러한 판단을 내림
+- 분류 모델 선정
+  - 타겟 변수의 불균형을 파라미터를 통해 반영할 수 있는 `Decision Tree`, `Random Forest`, `XGBoost` 세 가지 분류기를 모델로 선정
+  - `Decision Tree`를 모델의 성능 개선도를 확인하기 위한 기준 모델로 선정
+  -  Randomized Search, Exhausted Grid Search를 통해 `Random Forest`, `XGBoost` 분류기의 하이퍼파라미터 튜닝
+  -  가장 성능이 좋은 모델을 최종 모델로 결정
+- 위 방식에 따라 공격수, 미드필더, 수비수 데이터에 대해서 각각 분류모델을 생성
   
   
   
